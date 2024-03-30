@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Using Kava Documentation
+# Data Structures and Algorithms Using Java Documentation
 
 Welcome to the Data Structures and Algorithms Using Java Documentation repository! This repository contains documentation, explanations, and implementations of various data structures and algorithms in Java.
 
