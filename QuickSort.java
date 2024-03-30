@@ -7,18 +7,22 @@ public class QuickSort
             then sorts those sub-lists independently. It's fast and efficient for large datasets.
             Credits to My Java Sensei BroCode.
 
-            QuickSort = moves smaller elements to left of a pivot.
+            Quick sort: moves smaller elements to left of a pivot.
                         recursively divide array in 2 partitions
 
-            Run-time complexity = Best case O(n log(n))
+            Run-time complexity: Best case O(n log(n))
                                   Average case O(n log(n))
                                   Worst case O(n^2) if already sorted
 
-            Space complexity = O(log(n)) due to recursion
+            Space complexity: O(log(n)) due to recursion
          */
+
+        // Declare the array
         int[] array = {9, 2, 3, 1, 6, 4, 5, 8, 7};
+        // QuickSort the selected array
         quickSort(array, 0, array.length - 1);
 
+        // Print the sorted array
         for (int i : array)
         {
             System.out.print(i + " ");
