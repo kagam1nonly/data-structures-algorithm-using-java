@@ -5,13 +5,15 @@ public class MyQueue
 {
     public static void main(String[] args)
     {
-        // Queue: follows a First-In-First-Out (FIFO) data structure
-        //        elements are inserted at the rear (end) and removed from the front
-        //        enqueue() adds an element to the rear of the queue
-        //        dequeue() removes and returns the element from the front of the queue
-        //        peek() returns the element at the front of the queue without removing it
-        //        isEmpty() checks if the queue is empty
-        //        size() returns the number of elements in the queue
+        /* Queue: follows a First-In-First-Out (FIFO) data structure
+                  elements are inserted at the rear (end) and removed from the front
+
+           Methods:     Enqueue() adds an element to the rear of the queue
+                        Dequeue() removes and returns the element from the front of the queue
+                        Peek() returns the element at the front of the queue without removing it
+                        IsEmpty() checks if the queue is empty
+                        Size() returns the number of elements in the queue
+         */
 
         // Declare the queue
         Queue<String> queue = new LinkedList<>();
