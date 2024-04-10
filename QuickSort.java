@@ -10,11 +10,11 @@ public class QuickSort
             Quick sort: moves smaller elements to left of a pivot.
                         recursively divide array in 2 partitions
 
-            Run-time complexity: Best case O(n log(n))
-                                  Average case O(n log(n))
-                                  Worst case O(n^2) if already sorted
+            Run-time complexity:    Best case O(n log(n))
+                                    Average case O(n log(n))
+                                    Worst case O(n^2) if already sorted
 
-            Space complexity: O(log(n)) due to recursion
+            Space complexity:       O(log(n)) due to recursion
          */
 
         // Declare the array
