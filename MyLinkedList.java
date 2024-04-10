@@ -4,10 +4,30 @@ public class MyLinkedList
 {
     public static void main(String[] args)
     {
-        // LinkedList: a linear data structure where elements are stored in nodes
-        //              each node has a reference to the next node in the sequence
-        //              supports dynamic memory allocation
-        //              provides operations for adding, removing, and accessing elements
+        /* LinkedList: stores nodes in 2 parts (data + address)
+                       nodes are in non-consecutive memory locations
+                       elements are linked using pointers
+
+                                Singly Linked List
+                   Node                Node                Node
+             [data | address] -> [data | address] -> [data | address]
+
+                                Doubly Linked List
+                         Node                           Node
+             [address | data | address] <-> [address | data | address]
+
+             Advantages:    1. Dynamic Data Structure (allocates needed memory while running)
+                            2. Insertion and Deletion of nodes is easy. O(1)
+                            3. No low memory usage
+
+             Disadvantages: 1. Greater memory usage
+                            2. No random access of elements (no index[i])
+                            3. Accessing/searching elements is more time consuming. O(n)
+
+             Uses:          1. Implement stacks/queues
+                            2. GPS navigation
+                            3. Music playlist
+         */
 
         // Declare the LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
