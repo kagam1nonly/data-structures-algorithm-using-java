@@ -33,25 +33,25 @@ This documentation serves as a comprehensive guide to understanding fundamental 
 [Quick Sort](/QuickSort.java) is a sorting algorithm that divides the array into smaller subarrays, sorts them independently, and then combines them. It has an average-case time complexity of O(n log n) and is widely used due to its efficiency.
 
 ## Linked List
-[Linked List] is a linear data structure consisting of a sequence of elements, where each element points to the next element in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be efficiently inserted or removed from any position in the list. There are different types of linked lists, such as singly linked lists, doubly linked lists, and circular linked lists, each with its own set of properties and operations.
+[Linked List](/MyLinkedList.java) is a linear data structure consisting of a sequence of elements, where each element points to the next element in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be efficiently inserted or removed from any position in the list. There are different types of linked lists, such as singly linked lists, doubly linked lists, and circular linked lists, each with its own set of properties and operations.
 
 ## Stack
-[Stack] is a linear data structure that follows the Last-In, First-Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. It supports two main operations: push, which adds an element to the top of the stack, and pop, which removes the top element from the stack. Stacks are commonly used in algorithms involving recursive function calls, expression evaluation, and backtracking.
+[Stack](/MyStack.java) is a linear data structure that follows the Last-In, First-Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. It supports two main operations: push, which adds an element to the top of the stack, and pop, which removes the top element from the stack. Stacks are commonly used in algorithms involving recursive function calls, expression evaluation, and backtracking.
 
 ## Queue
-[Queue] is a linear data structure that follows the First-In, First-Out (FIFO) principle, meaning that the first element added to the queue is the first one to be removed. It supports two main operations: enqueue, which adds an element to the back of the queue, and dequeue, which removes the front element from the queue. Queues are commonly used in algorithms involving breadth-first search, task scheduling, and asynchronous processing.
+[Queue](/MyQueue.java) is a linear data structure that follows the First-In, First-Out (FIFO) principle, meaning that the first element added to the queue is the first one to be removed. It supports two main operations: enqueue, which adds an element to the back of the queue, and dequeue, which removes the front element from the queue. Queues are commonly used in algorithms involving breadth-first search, task scheduling, and asynchronous processing.
 
 ## Selection Sort
-[Selection Sort] is a simple sorting algorithm that repeatedly selects the minimum element from the unsorted portion of the array and swaps it with the first unsorted element. It has a time complexity of O(n^2) and is inefficient for large datasets.
+[Selection Sort](/SelectionSort.java) is a simple sorting algorithm that repeatedly selects the minimum element from the unsorted portion of the array and swaps it with the first unsorted element. It has a time complexity of O(n^2) and is inefficient for large datasets.
 
 ## Insertion Sort
-[Insertion Sort] is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates through the array, moving each element to its correct position relative to the elements before it. It has a time complexity of O(n^2) and is efficient for small datasets or nearly sorted arrays.
+[Insertion Sort](/InsertionSort.java) is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates through the array, moving each element to its correct position relative to the elements before it. It has a time complexity of O(n^2) and is efficient for small datasets or nearly sorted arrays.
 
 ## Linear Search
-[Linear Search] is a search algorithm that iterates through a collection one element at a time to find a target element. It has a time complexity of O(n) and is suitable for small to medium-sized datasets, but inefficient for large datasets.
+[Linear Search](/LinearSearch.java) is a search algorithm that iterates through a collection one element at a time to find a target element. It has a time complexity of O(n) and is suitable for small to medium-sized datasets, but inefficient for large datasets.
 
 ## Recursion
-The [Recursion] class demonstrates various examples of recursive algorithms, including factorial calculation, string reversal, and a simple walk simulation.
+The [Recursion](/Recursion.java) class demonstrates various examples of recursive algorithms, including factorial calculation, string reversal, and a simple walk simulation.
 
 ## Contribution
 
