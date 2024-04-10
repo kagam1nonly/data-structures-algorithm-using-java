@@ -7,10 +7,11 @@ public class MyStack
         /*
             Stack: follows a Last-In-First-Out (LIFO) data structure
                    stores objects in a vertical tower
-                   push() inserts an element onto the top of the stack
-                   pop() removes and returns the element from the top of the stack
-                   peek() returns the element at the top of the stack without removing it
-                   search() searches for the element in the stack and returns its 1-based position
+
+            Methods:    Push() inserts an element onto the top of the stack
+                        Pop() removes and returns the element from the top of the stack
+                        Peek() returns the element at the top of the stack without removing it
+                        Search() searches for the element in the stack and returns its 1-based position
          */
 
         // Declare the stack
