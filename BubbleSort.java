@@ -3,16 +3,15 @@ public class BubbleSort
     public static void main(String[] args)
     {
         /*
-            BubbleSort is a simple sorting algorithm that repeatedly steps through the list,
-            compares adjacent elements, and swaps them if they are in the wrong order.
-            The pass through the list is repeated until the list is sorted.
+            Bubble Sort: is a simple sorting algorithm that repeatedly steps through the list,
+                         compares adjacent elements, and swaps them if they are in the wrong order.
 
-            Bubble sort = pairs of adjacent elements are compared, and the elements swapped
-            if they are not in order.
+            Bubble sort: pairs of adjacent elements are compared, and the elements swapped
+                         if they are not in order.
 
-            Run-time complexity: Quadratic time O(n^2)
-                               : Small data set = okay-ish
-                               : Large data set = not good
+            Run-time complexity:    Quadratic time O(n^2)
+                               :    Small data set = okay-ish
+                               :    Large data set = not good
 
             Space complexity: O(1)
          */
