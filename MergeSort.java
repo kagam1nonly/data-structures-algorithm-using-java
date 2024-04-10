@@ -3,16 +3,14 @@ public class MergeSort
     public static void main(String[] args)
     {
         /*
-            MergeSort is a sorting algorithm that divides the array into two halves,
-            recursively sorts the sub-arrays, and then merges them. It's efficient
-            for large datasets and has a stable O(n log n) time complexity.
-            Credits to My Java Sensei BroCode.
+            Merge Sort: is a sorting algorithm that divides the array into two halves,
+                        recursively sorts the sub-arrays, and then merges them.
+                        It's efficient for large datasets and has a stable O(n log n) time complexity.
+                        recursively divide array in 2, sort, re-combine
 
-            Merge sort: recursively divide array in 2, sort, re-combine
+            Run-time complexity:    O(n Log n)
 
-            Run-time complexity: O(n Log n)
-
-            Space complexity: O(n)
+            Space complexity:   O(n)
          */
 
         // Declare the array
