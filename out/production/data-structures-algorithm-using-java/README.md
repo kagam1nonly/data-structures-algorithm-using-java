@@ -12,9 +12,12 @@ This documentation serves as a comprehensive guide to understanding fundamental 
 2. [Merge Sort](#merge-sort)
 3. [Quick Sort](#quick-sort)
 4. [Binary Search Tree](#binary-search-tree) (To be made)
-5. [Linked List](#linked-list) (To be made)
-6. [Stack](#stack) (To be made)
-7. [Queue](#queue) (To be made)
+5. [Linked List](#linked-list) 
+6. [Stack](#stack) 
+7. [Queue](#queue)
+8. 
+9.
+10.
 
 ## Bubble Sort
 
@@ -27,6 +30,15 @@ This documentation serves as a comprehensive guide to understanding fundamental 
 ## Quick Sort
 
 [Quick Sort](/QuickSort.java) is a sorting algorithm that divides the array into smaller subarrays, sorts them independently, and then combines them. It has an average-case time complexity of O(n log n) and is widely used due to its efficiency.
+
+## Linked List
+A linked list is a linear data structure consisting of a sequence of elements, where each element points to the next element in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be efficiently inserted or removed from any position in the list. There are different types of linked lists, such as singly linked lists, doubly linked lists, and circular linked lists, each with its own set of properties and operations.
+
+## Stack
+A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. It supports two main operations: push, which adds an element to the top of the stack, and pop, which removes the top element from the stack. Stacks are commonly used in algorithms involving recursive function calls, expression evaluation, and backtracking.
+
+## Queue
+A queue is a linear data structure that follows the First-In, First-Out (FIFO) principle, meaning that the first element added to the queue is the first one to be removed. It supports two main operations: enqueue, which adds an element to the back of the queue, and dequeue, which removes the front element from the queue. Queues are commonly used in algorithms involving breadth-first search, task scheduling, and asynchronous processing.
 
 ## Contribution
 

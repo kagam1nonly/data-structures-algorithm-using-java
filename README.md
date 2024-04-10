@@ -15,9 +15,10 @@ This documentation serves as a comprehensive guide to understanding fundamental 
 5. [Linked List](#linked-list) 
 6. [Stack](#stack) 
 7. [Queue](#queue)
-8. 
-9.
-10.
+8. [Selection Sort](#selection-sort)
+9. [Insertion Sort](#insertion-sort)
+10. [Linear Search](#linear-search)
+11. [Recursion](#recursion)
 
 ## Bubble Sort
 
@@ -40,6 +41,20 @@ A stack is a linear data structure that follows the Last-In, First-Out (LIFO) pr
 ## Queue
 A queue is a linear data structure that follows the First-In, First-Out (FIFO) principle, meaning that the first element added to the queue is the first one to be removed. It supports two main operations: enqueue, which adds an element to the back of the queue, and dequeue, which removes the front element from the queue. Queues are commonly used in algorithms involving breadth-first search, task scheduling, and asynchronous processing.
 
+## Selection Sort
+Selection Sort is a simple sorting algorithm that repeatedly selects the minimum element from the unsorted portion of the array and swaps it with the first unsorted element. It has a time complexity of O(n^2) and is inefficient for large datasets.
+
+## Insertion Sort
+Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates through the array, moving each element to its correct position relative to the elements before it. It has a time complexity of O(n^2) and is efficient for small datasets or nearly sorted arrays.
+
+## Linear Search
+Linear Search is a search algorithm that iterates through a collection one element at a time to find a target element. It has a time complexity of O(n) and is suitable for small to medium-sized datasets, but inefficient for large datasets.
+
+## Recursion
+The Recursion class demonstrates various examples of recursive algorithms, including factorial calculation, string reversal, and a simple walk simulation.
+
 ## Contribution
 
 Contributions to this documentation are welcome! If you have improvements, corrections, or additional examples to add, please feel free to submit a pull request.
+
+Credits to My Java Sensei BroCode.
